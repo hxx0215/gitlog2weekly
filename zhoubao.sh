@@ -17,7 +17,11 @@ sed -i '' "s/$username/Connoisseur/g" $workspace/Connoisseur_log.txt
 cd /Users/hxx/work/project/PDFReader\_Universal\_source
 git log --pretty=format:"%an %s" --since=1.days --author=$username | grep "$username.*-" > $workspace/Reader6_log.txt
 sed -i '' "s/$username/PDFReader6/g" $workspace/Reader6_log.txt
+cd /Users/hxx/work/project/Pocket_Scanner_Cloud_source
+git log --pretty=format:"%an %s" --since=1.days --author=$username | grep "$username.*-" > $workspace/Scanner_log.txt
+sed -i '' "s/$username/ScannerCloud/g" $workspace/Scanner_log.txt
 cat $workspace/pocketscanner_log.txt > $workspace/zhoubao.txt
 cat $workspace/Connoisseur_log.txt >> $workspace/zhoubao.txt
 cat $workspace/Reader6_log.txt >> $workspace/zhoubao.txt
+cat $workspace/Scanner_log.txt >> $workspace/zhoubao.txt
 vim $workspace/zhoubao.txt
