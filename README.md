@@ -1,2 +1,3 @@
-# gitlog2weekly v0.11
-this is a shell to translate git log to weekly
+# This is a repo to save some Intresting Shell 
+1、Generate Weekly from git commit
+2、Pull all apple/swift repo and generate a Xcode workspace
