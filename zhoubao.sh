@@ -9,8 +9,8 @@ if [ "$username" = "" ]; then
     username=$defaultname
 fi
 echo $username
-workPaths=($projectPath/pocketscanner $projectPath/PDFReader\_Universal\_source $projectPath/PDF_Connoisseur_Universal_source $projectPath/Pocket_Scanner_Cloud_source $projectPath/PDF_Markup_Cloud $projectPath/PDFReader_iPad)
-nameArr=(PocketScanner PDFReader6 Connoisseur ScannerCloud PDFCloud PDFReader_iPad)
+workPaths=($projectPath/pocketscanner $projectPath/PDFReader\_Universal\_source $projectPath/PDF_Connoisseur_Universal_source $projectPath/Pocket_Scanner_Cloud_source $projectPath/PDF_Markup_Cloud $projectPath/PDFReader_iPad $projectPath/PDFReader_iPhone)
+nameArr=(PocketScanner PDFReader6 Connoisseur ScannerCloud PDFCloud PDFReader_iPad PDFReader_iPhone)
 echo " " > $workspace/zhoubao.txt
 for ((i=0;i<${#workPaths[@]};i++))
 do
