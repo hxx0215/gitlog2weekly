@@ -1,4 +1,5 @@
 #!/bin/sh
+
 defaultname=hxx0215
 workspace=~/work
 projectPath=~/work/project
