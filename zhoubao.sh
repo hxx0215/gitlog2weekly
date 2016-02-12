@@ -1,8 +1,8 @@
 #!/bin/sh
 
 defaultname=hxx0215
-workspace=~/work
-projectPath=~/work/project
+workspace=~
+projectPath=~
 echo "input username or type enter to use default name"
 read username
 if [ "$username" = "" ]; then
