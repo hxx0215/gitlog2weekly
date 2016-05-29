@@ -24,4 +24,3 @@ do
     cat $workspace/${name}"_log.txt" >> $workspace/zhoubao.txt
 done
 pbcopy < $workspace/zhoubao.txt
-vim $workspace/zhoubao.txt
